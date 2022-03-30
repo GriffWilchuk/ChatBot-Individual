@@ -39,7 +39,11 @@
 
  <h3>7.)The Tokenizer Class</h3>
  <p>The Tokenizer class is another API implementation from OpenNLP. The tokenizer function will take the user input and turn it into an array where each index is one word from the user input. This class has assisted with the spellcheck function developed by our group, passing the tokenized array of the user input and comparing each index to a dictionary</p>
- <h3>8.),9.),10.) - Test Cases</h3>
+ 
+ <h3>8.)The TwitterAPI Class</h3>
+ <p>The TwitterAPI class implements an API called twitter4j. This API allows for a wide range of actions to be performed on twitter such as posting a tweet or pulling a users timeline. For the purpose of this project, it is used to pull the latests tweet about Ryan Reynolds. In the future this can be expanded using more functions from the libraries. All credit for the libraries making this API possilbe belong to the Twitter4j community and its memebers!</p>
+ 
+ <h3>9.),10.),11.) - Test Cases</h3>
  <p>Please see our documentation / report submitted with a description of our test cases</p>
  <br>
  <h2>How to Compile and Run Code:</h2>
