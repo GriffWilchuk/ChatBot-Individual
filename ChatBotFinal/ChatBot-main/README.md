@@ -41,7 +41,7 @@
  <p>The Tokenizer class is another API implementation from OpenNLP. The tokenizer function will take the user input and turn it into an array where each index is one word from the user input. This class has assisted with the spellcheck function developed by our group, passing the tokenized array of the user input and comparing each index to a dictionary</p>
  
  <h3>8.)The TwitterAPI Class</h3>
- <p>The TwitterAPI class implements an API called twitter4j. This API allows for a wide range of actions to be performed on twitter such as posting a tweet or pulling a users timeline. For the purpose of this project, it is used to pull the latests tweet about Ryan Reynolds. In the future this can be expanded using more functions from the libraries. All credit for the libraries making this API possilbe belong to the Twitter4j community and its memebers!</p>
+ <p>The TwitterAPI class implements an API called twitter4j. This API allows for a wide range of actions to be performed on twitter such as posting a tweet or pulling a users timeline. For the purpose of this project, it is used to pull the latests tweet about Ryan Reynolds. There is a small function at the bottom of the file to parse out the correct information as a wide range of info is returned from the API while we just want the specific tweet</p>
  
  <h3>9.),10.),11.) - Test Cases</h3>
  <p>Please see our documentation / report submitted with a description of our test cases</p>
@@ -59,7 +59,8 @@
 Here you will want to make sure those specified files are placed wherever this prints out aka where the VS Code or IDE is running from. To allow this to work, move these files into this directory, compile, and run.<br><br>
 Mainly, you just need to download all files from this repository to an appropriate location on your device. <br><br>
 Open your IDE of choice, Load all files, and run the program! <br><br>
-To end the conversation, simply input "Goodbye", and to clear input, type ".clear". Furthermore, please note that the translation feature is limited to 100 translations an hour, so if you are receiving errors, this is due to the translations running out.</p>
+To end the conversation, simply input "Goodbye", and to clear input, type ".clear". Furthermore, please note that the translation feature is limited to 100 translations an hour, so if you are receiving errors, this is due to the translations running out. <br><br>
+Please ensure JAR files located in lib folder are properly refrenced in your project to ensure all API's function as expected.</p>
  
  <h2>Additional Features Added</h2>
  <br>
@@ -76,3 +77,6 @@ To end the conversation, simply input "Goodbye", and to clear input, type ".clea
 <h3>Feature 4: POS Tagging and Probability toolkit</h3>
 <p>The POS tagging API has been added, but what is used is the Probaility of these POS tags being accurate. This probability is used to make a quick descision on whether or not the input from the user has been spelt correctly. This is done by making sure the probability that the POS tag was correct is good enough, so that it can be ensured it is actually a word. </p>
 <br><br>
+
+<h3>Feature 5: TwitterAPI</h3>
+<p>The TwitterAPI class implements an API called twitter4j. This API allows for a wide range of actions to be performed on twitter such as posting a tweet or pulling a users timeline. For the purpose of this project, it is used to pull the latests tweet about Ryan Reynolds. In the future this can be expanded using more functions from the libraries. All credit for the libraries making this API possilbe belong to the Twitter4j community and its memebers!</p>
